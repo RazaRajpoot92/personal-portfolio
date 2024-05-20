@@ -41,8 +41,8 @@ const Hero = () => {
         </div>
 
         <div>
-            <div className='w-[300px] h-[400px] shadow-2xl  shadow-indigo-300 bg-indigo-400  rounded-3xl flex justify-center items-end '>
-                <img className='h-[350px] w-[300px] ' src={hero_image} alt="" />
+            <div data-aos="fade-left" data-aos-duration="1500" className='w-[300px] h-[450px] shadow-2xl  shadow-indigo-300 bg-indigo-400 overflow-hidden  rounded-full relative '>
+                <img className='h-[350px] w-[300px] absolute left-[-10px] bottom-0 ' src={hero_image} alt="" />
             </div>
         </div>
     </div>

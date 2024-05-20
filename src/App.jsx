@@ -6,6 +6,7 @@ import Hero from './componets/Hero'
 import AOS from 'aos'
 import 'aos/dist/aos.css'; 
 import { useEffect } from 'react'
+import Services from './componets/Services'
 
 function App() {
  
@@ -18,6 +19,7 @@ function App() {
     <div className='container'>
     <Header />
     <Hero />
+    <Services />
 
     </div>
     </>
