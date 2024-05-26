@@ -12,8 +12,8 @@ const Header = () => {
         <div className='flex text-lg gap-4'>
             <a  className='hover:text-indigo-500' href="#about">About</a>
             <a className='hover:text-indigo-500' href="#service">Service</a>
-            <a className='hover:text-indigo-500' href="">Portfolio</a>
-            <a className='hover:text-indigo-500' href="">Contact</a>
+            <a className='hover:text-indigo-500' href="#portfolio">Portfolio</a>
+            <a className='hover:text-indigo-500' href="#contact">Contact</a>
         </div>
 
         <div className='h-5 p-4 border border-indigo-600 flex items-center rounded-md

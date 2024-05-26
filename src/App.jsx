@@ -8,6 +8,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 import Services from './componets/Services'
 import Portfolio from './componets/Portfolio'
+import Contact from './componets/Contact'
+import Footer from './componets/Footer'
 
 function App() {
  
@@ -22,8 +24,9 @@ function App() {
     <Hero />
     <Services />
     <Portfolio />
-
+    <Contact />
     </div>
+    <Footer />
     </>
   )
 }

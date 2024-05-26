@@ -3,7 +3,7 @@ import hero_image from "../assets/raza-bg.png"
 
 const Hero = () => {
   return (
-    <div className='py-6 flex justify-around'>
+    <div id='about' className='py-6 flex justify-around'>
         <div className='flex flex-col gap-3'>
             <p data-aos="fade-up" data-aos-duration='1500' className='text-sm text-gray-500'>Hi, Welcome!</p>
             
