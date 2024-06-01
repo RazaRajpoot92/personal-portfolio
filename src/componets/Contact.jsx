@@ -13,13 +13,13 @@ const Contact = () => {
         </div>
 
         <div className='w-1/2 border shadow-lg shadow-indigo-200  rounded-lg bg-indigo-100 border-indigo-600 px-20 p-10'>
-        <form onSubmit={(e)=>e.preventDefault()} action="https://formspree.io/f/xjvnqyop" method='POST' className='flex flex-col gap-3'>
-            <input className=' border border-indigo-700 rounded-lg p-2  text-gray-600 focus:border-blue-600 focus:outline-none' type="text" name='name' placeholder='Enter your name' />
-            <input className=' border border-indigo-700 rounded-lg p-2  text-gray-600 focus:border-blue-600 focus:outline-none' type="text" name='email' placeholder='Enter your email' />
-            <input className=' border border-indigo-700 rounded-lg p-2  text-gray-600 focus:border-blue-600 focus:outline-none' type="text" name='subject' placeholder='Subject' />
-            <textarea className=' border border-indigo-700 rounded-lg p-2  text-gray-600 focus:border-blue-600 focus:outline-none h-[150px]' name='message' placeholder='Your message...' id=""></textarea>
+        <form action="https://formspree.io/f/xjvnqyop" method='POST' className='flex flex-col gap-3'>
+            <input required className=' border border-indigo-700 rounded-lg p-2  text-gray-600 focus:border-blue-600 focus:outline-none' type="text" name='name' placeholder='Enter your name' />
+            <input required className=' border border-indigo-700 rounded-lg p-2  text-gray-600 focus:border-blue-600 focus:outline-none' type="text" name='email' placeholder='Enter your email' />
+            <input required className=' border border-indigo-700 rounded-lg p-2  text-gray-600 focus:border-blue-600 focus:outline-none' type="text" name='subject' placeholder='Subject' />
+            <textarea required className=' border border-indigo-700 rounded-lg p-2  text-gray-600 focus:border-blue-600 focus:outline-none h-[150px]' name='message' placeholder='Your message...' id=""></textarea>
 
-            <button className='px-4 py-2 hover:bg-indigo-700 bg-indigo-500 text-white rounded-md '>Send Message</button>
+            <button type='submit' className='px-4 py-2 hover:bg-indigo-700 bg-indigo-500 text-white rounded-md '>Send Message</button>
         </form>
 
         </div>

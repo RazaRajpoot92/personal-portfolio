@@ -21,7 +21,9 @@ const Header = () => {
          text-white cursor-pointer hover:bg-white hover:text-indigo-700
          ease-in duration-200 
          '>
-            <i className="ri-send-plane-line"> Let's Talk</i>
+          <a href="#contact">
+            <i  className="ri-send-plane-line"> Let's Talk</i>
+            </a>
         </div>
 
     </div>

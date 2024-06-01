@@ -15,11 +15,11 @@ const Portfolio = () => {
             {
                 portfolioData.map(project=>(
                     <div data-aos="fade-zoom" data-aos-duration="1500" key={project.name} className='relative flex flex-col'>
+                       <a target='_blank' href={project.repoLink}>
                         <img className='w-[320px] rounded-md h-[200px]' src={project.img} alt="youtube" />
 
                         <h2 className='font-semibold mt-2  text-center'>{project.name}</h2>
-
-                        
+                        </a>
                     </div>
                 ))
             }

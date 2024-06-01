@@ -13,11 +13,11 @@ const Hero = () => {
             </div>
             
             <div data-aos='fade-left' data-aos-duration="1500" className='flex mt-8 items-center gap-4'>
-                <button className='px-6 relative text-white ease-in duration-200 rounded-md bg-gradient-to-tr border border-indigo-400 hover:from-sky-300 hover:to-indigo-400 from-indigo-400 to-purple-400 py-2 '>
+                <a href='#contact' className='px-6 relative text-white ease-in duration-200 rounded-md bg-gradient-to-tr border border-indigo-400 hover:from-sky-300 hover:to-indigo-400 from-indigo-400 to-purple-400 py-2 '>
                      <i className="ri-mail-line mr-1"></i>Hire Me
                      <span className='absolute h-4 w-4 animate-ping bg-indigo-300 top-[-6px] right-[-6px] rounded-full'></span>
                      <span className='absolute h-4 w-4  bg-indigo-400 top-[-6px] right-[-6px] rounded-full'></span>
-                </button>
+                </a>
                 <a href='#portfolio' className='border-b-[1px] text-indigo-400 text-sm ml-3 border-indigo-500'>See portfolio</a>
             </div>
 
@@ -32,9 +32,9 @@ const Hero = () => {
             <div className='flex gap-5 mt-5 items-center'>
                 <p className='text-sm'>Follow Me:</p>
 
-                <a className='text-xl' href="#"><i class="ri-github-fill"></i></a>
+                <a className='text-xl' href="https://github.com/RazaRajpoot92"><i class="ri-github-fill"></i></a>
                 <a  className='text-xl'  href="#"><i class="ri-facebook-fill"></i></a>
-                <a className='text-xl'  href="#"><i class="ri-linkedin-fill"></i></a>
+                <a className='text-xl'  href="https://www.linkedin.com/in/ahmad-raza-5b0646234/"><i class="ri-linkedin-fill"></i></a>
                 <a  className='text-xl' href="#"><i class="ri-instagram-line"></i></a>
             </div>
             
