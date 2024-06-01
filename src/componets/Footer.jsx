@@ -4,9 +4,6 @@ const Footer = () => {
   return (
     <div className=' bg-black px-20 py-4 relative '>
 
-
-    
-
             <div className='flex justify-between my-4 mb-8'>
                
                     <div className='text-gray-200 flex flex-col gap-3'>

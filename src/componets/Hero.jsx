@@ -1,5 +1,5 @@
 import React from 'react'
-import hero_image from "../assets/raza-bg.png"
+import hero_image from "../assets/razadp.png"
 
 const Hero = () => {
   return (
@@ -42,7 +42,7 @@ const Hero = () => {
 
         <div>
             <div data-aos="fade-left" data-aos-duration="1500" className='w-[300px] h-[450px] shadow-2xl  shadow-indigo-300 bg-indigo-400 overflow-hidden  rounded-full relative '>
-                <img className='h-[350px] w-[300px] absolute left-[-10px] bottom-0 ' src={hero_image} alt="" />
+                <img className='h-[350px] w-[280px] absolute right-[10px] bottom-0 ' src={hero_image} alt="" />
             </div>
         </div>
     </div>
